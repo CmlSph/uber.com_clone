@@ -1,0 +1,214 @@
+* {
+    margin:0;
+    padding:0
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    box-sizing:border-box;
+    width:100;
+  }
+  
+  
+.showcase{
+  position:relative;
+  background-image:url("uber0.jpg");
+  background-size:cover;
+  background-position:center;
+  box-sizing:border-box;
+  width:100%;
+  height:850px;
+
+}
+container ul li{
+  color:white;
+  background-color:black;
+  border:solid 3px red;
+}
+
+
+.background-img {
+  position: relative;
+  
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  
+  width: 100%;
+  padding: 64px;
+  margin-top:-45px;
+} 
+
+  .nav-extended {
+    background: white;
+    box-shadow: none;
+    border-bottom: 1px solid lightgrey;
+  }
+
+.nav-extended ul {
+  display: flex;
+  list-style:none;
+  text-align: center;
+  justify-content: space-around;
+}
+
+.nav-extended  ul li {
+  
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+
+}
+.nav-extended ul li a {
+  color:black;
+  text-align: center;
+}
+
+
+.uberforbusiness{
+  max-width:1400px;
+  margin:0 auto;
+}
+.mycards{
+    max-width:150%;
+    height:100px;
+
+}
+
+
+
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
+
+
+.content2{
+    max-width: 40%;
+    margin-left:150px;
+    margin-top:35px;
+}
+
+.kruip{
+    margin-top:-8px;
+    width:70%;
+    margin-left:-10px;
+    height:100px;
+}
+.dropdown-content{
+  min-width: 165px;
+  
+}
+
+
+
+  .leesverder{
+    color:black;
+    background-color:white;
+    margin-left:15px;
+    margin-bottom:5px;
+  }
+
+
+.footericons{
+    display:flex;
+    flex-direction:row;
+    width:50%;
+    justify-content: space-between;
+    color:white;
+    margin-left:30px;
+
+}
+
+
+  .secondnavbar{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    height:8rem;
+    width:80%;
+    margin-top:-15px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    flex:1;
+    align-items:center;
+   }
+  
+  
+    
+  
+  .nocolor{
+    background-color:#eec688;
+    display: block;
+    
+  }
+  
+  
+  h6{
+      margin-left:25px;
+  }
+.fa-facebook, .fa-twitter, .fa-linkedin, .fa-instagram {
+    color:white;
+}
+
+.finallinks{
+    width:15%;
+    display:flex;
+    justify-content: start;
+    
+}
+
+@media (max-width:600px){/*mobile phone view begins*/
+    
+    .row{
+        display:block;
+        width:100%;
+        margin-left:0px;  
+    }
+    .kruip{
+      width:100%;
+    }
+ 
+    .footericons{
+        
+        display:flex;
+        width:100%;
+        flex:1
+    }
+    
+    
+ 
+  
+  
+    
+}/*mobile phone view ends*/
+@media only screen and (min-width: 600px) and (max-width: 1023px) {
+
+ .kruip{
+   width:100%;
+ } 
+
+.cemal{
+    display:flex;
+    flex:1;
+    width:100%;
+    height:100px;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: row;
+    
+}
+    
+ 
+  
+}
+
+/*tablet view ends*/
+
+
+
