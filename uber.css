@@ -171,7 +171,9 @@ container ul li{
         margin-left:0px;  
     }
     .kruip{
+      display:block;
       width:100%;
+      margin-left:0px;
     }
  
     .footericons{
