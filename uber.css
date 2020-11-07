@@ -171,11 +171,11 @@ container ul li{
         margin-left:0px;  
     }
     .kruip{
-      display:flex;
+      display:block;
       flex:1;
       width:100%;
-      height:auto;
-      border:1px solid red;
+      height:100px;
+      
       margin-left:0px;
     }
  
