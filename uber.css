@@ -180,7 +180,10 @@ container ul li{
         width:100%;
         flex:1
     }
-    
+    .secondnavbar{
+        width:100%;
+        height:auto;
+    }
     
  
   
