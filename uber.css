@@ -181,6 +181,7 @@ container ul li{
         flex:1
     }
     .background-img{
+      background-image:none;
       padding:0;
       position:relative;
       width:100;
@@ -210,7 +211,13 @@ container ul li{
     
 }
     
- 
+ .background-img{
+      background-image:none;
+      padding:0;
+      position:relative;
+      width:100;
+      visibility:visible
+    }
   
 }
 
