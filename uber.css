@@ -165,6 +165,11 @@ container ul li{
 
 @media (max-width:600px){/*mobile phone view begins*/
     
+    .showcase{
+        background:none;
+    }
+    
+    
     .row{
         display:block;
         width:100%;
@@ -196,7 +201,12 @@ container ul li{
 }/*mobile phone view ends*/
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
 
- .kruip{
+ .showcase{
+        background:none;
+    }
+    
+    
+    .kruip{
    width:100%;
  } 
 
