@@ -165,12 +165,11 @@ container ul li{
 
 @media (max-width:600px){/*mobile phone view begins*/
     
-    .showcase{
-        background:none;
-    }
     
-    
-    .row{
+  .showcase{
+    background:none;
+  }
+  .row{
         display:block;
         width:100%;
         margin-left:0px;  
@@ -186,7 +185,6 @@ container ul li{
         flex:1
     }
     .background-img{
-      background-image:none;
       padding:0;
       position:relative;
       width:100;
@@ -201,12 +199,11 @@ container ul li{
 }/*mobile phone view ends*/
 @media only screen and (min-width: 600px) and (max-width: 1023px) {
 
- .showcase{
-        background:none;
-    }
-    
-    
-    .kruip{
+  .showcase{
+    background:none;
+  }
+ 
+  .kruip{
    width:100%;
  } 
 
@@ -221,16 +218,11 @@ container ul li{
     
 }
     
- .background-img{
-      background-image:none;
-      padding:0;
-      position:relative;
-      width:100;
-      visibility:visible
-    }
+ 
   
 }
 
 /*tablet view ends*/
+
 
 
