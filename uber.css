@@ -11,6 +11,10 @@ body {
     width:100;
   }
   
+  .justify{
+    display:inline-block;
+    justify-content: space-evenly;
+  }
   
 .showcase{
   position:relative;
@@ -21,6 +25,9 @@ body {
   width:100%;
   height:850px;
 
+}
+.right .btn{
+  border-radius: 80px;
 }
 container ul li{
   color:white;
@@ -52,6 +59,7 @@ container ul li{
   list-style:none;
   text-align: center;
   justify-content: space-around;
+  
 }
 
 .nav-extended  ul li {
@@ -64,6 +72,10 @@ container ul li{
 .nav-extended ul li a {
   color:black;
   text-align: center;
+}
+.beweging{
+  max-width:1400px;
+  margin:0 auto;
 }
 
 
@@ -87,9 +99,10 @@ container ul li{
 
 
 .content2{
-    max-width: 40%;
-    margin-left:150px;
+    max-width: 60%;
+    
     margin-top:35px;
+  
 }
 
 .kruip{
@@ -147,7 +160,10 @@ container ul li{
     display: block;
     
   }
-  
+  .underline{
+    color:black;
+    text-decoration: underline;
+  }
   
   h6{
       margin-left:25px;
@@ -157,18 +173,31 @@ container ul li{
 }
 
 .finallinks{
-    width:15%;
-    display:flex;
-    justify-content: start;
+    width:20%;
+    display:inline-block;
+    
     
 }
 
 @media (max-width:600px){/*mobile phone view begins*/
     
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
     
   .showcase{
     background:none;
   }
+  .nav-extended ul {
+    justify-content: start;
+    overflow-y: scroll;
+  }
+  .content2{
+    max-width: 100%;
+    margin-top:10px;
+    
+}
   .row{
         display:block;
         width:100%;
@@ -190,6 +219,11 @@ container ul li{
       width:100;
       visibility:visible
     }
+    .finallinks{
+      display:none;
+      
+      
+  }
     
     
  
@@ -206,6 +240,15 @@ container ul li{
   .kruip{
    width:100%;
  } 
+ .nav-extended ul {
+  justify-content: start;
+  overflow-y: scroll;
+}
+ .content2{
+  max-width: 100%;
+  margin-top:-20px;
+  
+}
 
 .cemal{
     display:flex;
